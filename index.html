@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Blühende Akademie</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Acme&family=Kanit&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="manifest" href="manifest.json" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="shortcut icon"
+      href="./assets/sunflower.png"
+      type="image/x-icon"
+    />
+    <meta name="theme-color" content="#896C6C" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic:wght@400..700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header id="header">
+      <h1 class="title" id="titel">Blühende Akademie</h1>
+      <select id="sprache">
+        <option value="de">🇩🇪</option>
+        <option value="tr">🇹🇷</option>
+      </select>
+    </header>
+
+    <main>
+      <p class="bismillah">بسم الله الرحمن الرحيم</p>
+
+      <section class="image-row">
+        <p id="erstefrage">Welche ist staerker? Warum?</p>
+        <div>
+          <dialog id="bild1dialog">
+            <p id="bild1erklaerung">
+              Dein Feind ist mutig und stark. Aber Weltliche Kraft findet man
+              auch bei einem Ochsen und Mut bei einem Wolf.
+            </p>
+            <button onclick="document.getElementById('bild1dialog').close()">
+              Close
+            </button>
+          </dialog>
+          <img
+            src="assets/bodybuilder.jpg"
+            alt="Bild 1"
+            onclick="document.getElementById('bild1dialog').showModal()"
+          />
+
+          <dialog id="bild2dialog">
+            <p id="bild2erklaerung">
+              Eski arkadaşlarımızdan bir adamın, bir adama karşı adâveti vardı.
+              O adamın yanında senâkârâne onun düşmanı amel-i salihle, hattâ
+              velâyetle tavsif edildi. O adam kıskanmadı, sıkılmadı. Sonra
+              birisi dedi: "Senin o düşmanın cesurdur, kuvvetlidir." Baktık ki,
+              o adamda şiddetli bir kıskançlık ve bir rekabet damarı uyandı. Ona
+              dedik: "Velâyet ve salâhat hadsiz bir hayat-ı ebediyenin
+              pırlantası gibi bir kuvvet ve bir yüksekliktir. Sen buna bu
+              cihette kıskanmadın. Dünyevî kuvvet öküzde ve cesaret canavarda
+              dahi bulunmakla beraber, velâyet ve salâhate nisbeten, bir âdi cam
+              parçasının elmasa nisbeti gibidir."
+            </p>
+            <button onclick="document.getElementById('bild2dialog').close()">
+              Close
+            </button>
+          </dialog>
+          <img
+            src="assets/ochs.jpg"
+            alt="Bild 2"
+            onclick="document.getElementById('bild2dialog').showModal()"
+          />
+        </div>
+      </section>
+
+      <section class="image-row">
+        <p id="zweitefrage">
+          Was für eine Beziehung gibt es inzwischen? Weshalb?
+        </p>
+        <div>
+          <dialog id="bild3dialog">
+            <p id="bild3erklaerung">
+              Demek sivrisineğin gözünü halk eden, güneşi dahi o halk etmiştir.
+              Pirenin midesini tanzim eden, manzume-i şemsiyeyi de o tanzim
+              etmiştir.
+            </p>
+            <button onclick="document.getElementById('bild3dialog').close()">
+              Close
+            </button>
+          </dialog>
+          <img
+            src="assets/floh.jpg"
+            alt="Bild 3"
+            onclick="document.getElementById('bild3dialog').showModal()"
+          />
+
+          <dialog id="bild4dialog">
+            <p id="bild4erklaerung">
+              San'atına, akılların hayran olduğu Allah, her türlü kusur ve
+              noksandan münezzehtir.
+            </p>
+            <button onclick="document.getElementById('bild4dialog').close()">
+              Close
+            </button>
+          </dialog>
+          <img
+            src="assets/sonnensystem.jpg"
+            alt="Bild 4"
+            onclick="document.getElementById('bild4dialog').showModal()"
+          />
+        </div>
+      </section>
+
+      <section class="image-row">
+        <p id="drittefrage">
+          Was waere, ob die ganze Fliege, die nur in einem Sommer sterben sind,
+          nicht zerstört wurden? Wieso?
+        </p>
+        <div>
+          <dialog id="bild5dialog">
+            <p id="bild5erklaerung">
+              Evet, bir kitap, kıymeti nisbetinde nüshaları teksir edilir.
+              Demek, sinek cinsi de ehemmiyetli vazifesi ve büyük kıymeti var
+              ki, Fâtır-ı Hakîm, o küçücük kaderî mektupları ve kudret
+              kelimelerinin nüshalarını çok teksir etmiş.
+            </p>
+            <button onclick="document.getElementById('bild5dialog').close()">
+              Close
+            </button>
+          </dialog>
+
+          <img
+            src="assets/fliege.jpg"
+            alt="Bild 5"
+            onclick="document.getElementById('bild5dialog').showModal()"
+          />
+
+          <dialog id="bild6dialog">
+            <p id="bild6erklaerung">
+              Birkaç sene içinde yaşayıp ölen sinekler eğer çürüme ameliyesine
+              tâbi tutulmasalardı, yeryüzü birkaç santim kalınlığında sinek
+              ölüleriyle örtülecek ve insan adım atacak yer bulamayacaktı.
+            </p>
+            <button onclick="document.getElementById('bild6dialog').close()">
+              Close
+            </button>
+          </dialog>
+
+          <img
+            src="assets/erde.jpg"
+            alt="Bild 6"
+            onclick="document.getElementById('bild6dialog').showModal()"
+          />
+        </div>
+      </section>
+
+      <!-- YouTube Video Bildschirmbreit -->
+      <section class="video-section">
+        <img
+          src="assets/angry birds_green bird_angry birds_green bird.png"
+          alt="Angry Bird Icon"
+          class="angrybird-icon"
+        />
+
+        <iframe
+          src="https://www.youtube.com/embed/oGeCj61Y1SU?start=670"
+          title="The proof of spontaneous emergence (Existence) | Evidences Of Tawheed (Oneness Of God) 2"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        ></iframe>
+      </section>
+
+      <!-- SimpleNote-Kanal kurzer Text -->
+      <section class="simplenote-section">
+        <p id="simplenote">
+          Willkommen in unserem SimpleNote-Kanal. Bleibe auf dem Laufenden und
+          erfahre mehr!
+        </p>
+        <a
+          href="https://app.simplenote.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img
+            src="assets/angry birds_yellow bird_angry birds_yellow bird.png"
+            alt="Angry Bird Icon"
+            class="angrybird-icon"
+          />
+          <img src="./assets/redirect.jpg" alt="" width="30" height="30" />
+        </a>
+      </section>
+
+      <!-- Weitere Texte -->
+      <section class="text-section">
+        <p id="zurbuecher">
+          Sag ein Wort und finde es in deinem Telefon, wähl eine Abschnitt und
+          lies!
+        </p>
+        <a
+          href="https://pirlantaoku.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+          ><img
+            src="assets/black bird_black bird_angry birds_angry birds.png"
+            alt="Angry Bird Icon"
+            class="angrybird-icon" /><img
+            src="./assets/redirect.jpg"
+            alt=""
+            width="30"
+            height="30"
+        /></a>
+      </section>
+
+      <section class="text-section">
+        <p id="zumtranskript">
+          Lass uns eine kurze Abschnitt vom Transkript des Videos auf Deutsch
+          übersetzen!
+        </p>
+        <a
+          href="https://youtu.be/oGeCj61Y1SU?si=B877TZLja1ZPdvuA&t=1361"
+          target="_blank"
+          rel="noopener noreferrer"
+          ><img
+            src="assets/blue bird_angry birds_blue bird_angry birds.png"
+            alt="Angry Bird Icon"
+            class="angrybird-icon" /><img
+            src="./assets/redirect.jpg"
+            alt=""
+            width="30"
+            height="30"
+        /></a>
+      </section>
+
+      <section class="text-section">
+        <p id="kahoot">Kahoot Zeit!</p>
+        <a
+          href="https://create.kahoot.it/details/4590358e-96f3-41ff-adc7-b1f515591dd2"
+          target="_blank"
+          rel="noopener noreferrer"
+          ><img
+            src="assets/red bird_angry birds_angry birds_red bird.png"
+            alt="Angry Bird Icon"
+            class="angrybird-icon" /><img
+            src="./assets/redirect.jpg"
+            alt=""
+            width="30"
+            height="30"
+        /></a>
+      </section>
+
+      <!-- Google Suche eingebettet -->
+      <section class="search-section">
+        <p id="suchefaehigkeit">Wie ist effektive Suche zu machen?</p>
+        <img
+          src="assets/72182_red bird_angry birds_red bird_angry birds.png"
+          alt="Angry Bird Icon"
+          class="angrybird-icon"
+        />
+        <script
+          async
+          src="https://cse.google.com/cse.js?cx=e118718434c194f57"
+        ></script>
+        <div class="gcse-search"></div>
+      </section>
+
+      <section class="text-section">
+        <img
+          src="assets/white bird_angry birds_white bird_angry birds.png"
+          alt="Angry Bird Icon"
+          class="angrybird-icon"
+        />
+        <p id="gebetuebung">Namaz Übung! Lies laut vor!</p>
+      </section>
+
+      <section class="text-section">
+        <img
+          src="assets/black bird_black bird_angry birds_angry birds.png"
+          alt="Angry Bird Icon"
+          class="angrybird-icon"
+        />
+        <p id="gebetauswendiglernen">
+          Zeit, ein Gebet auswendig zu lernen! Zusammen und 7 Mal in der Reihe
+          laut vorlesen!
+        </p>
+        <details class="dua-ezber noto-naskh-arabic-dua" dir="ltr">
+          <summary dir="rtl">رَبِّ اِنِي ظَلَمْتُ نَفْسِي فَاغْفِرْلِي</summary>
+          Rabbim hiç şüphesiz kendime yazık ettim. Ne olur beni bağışla!
+        </details>
+      </section>
+      <section class="text-section">
+        <p id="fazit">
+          Lass uns heute, was wir gelernt haben, was wir gefühlen haben, was wir verstanden haben, was
+          wir gedachten haben, als einen kurzen Text im
+          Blog auf Deutsch oder auf Türkisch schreiben!
+        </p>
+        <a
+          href="https://blogbluehendeakademie.onrender.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          ><img
+            src="assets/blue bird_angry birds_blue bird_angry birds.png"
+            alt="Angry Bird Icon"
+            class="angrybird-icon" /><img
+            src="./assets/redirect.jpg"
+            alt=""
+            width="30"
+            height="30"
+        /></a>
+      </section>
+
+      <p class="thanks-text">والحمد لله رب العالمين</p>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
