@@ -76,7 +76,8 @@ h1.title {
 .video-section,
 .simplenote-section,
 .text-section,
-.search-section {
+.search-section,
+.learn-with-game-section {
   margin: 2rem 1rem;
 }
 
@@ -95,37 +96,6 @@ h1.title {
   vertical-align: middle;
   margin-right: 0.5rem;
 }
-
-/* .search-form {
-  display: flex;
-  max-width: 600px;
-  margin: 0 auto;
-  gap: 0.5rem;
-}
-
-.search-form input[type="text"] {
-  flex-grow: 1;
-  padding: 0.5rem;
-  border: 1px solid #896C6C;
-  border-radius: 4px;
-  font-size: 1rem;
-}
-
-.search-form button {
-  background-color: #896C6C;
-  color: #F5FAE1;
-  border: none;
-  padding: 0.5rem 1rem;
-  font-weight: bold;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
-.search-form button:hover {
-  background-color: #E5BEB5;
-  color: #896C6C;
-} */
-
 
 .noto-naskh-arabic-dua {
   font-family: "Noto Naskh Arabic", serif;
